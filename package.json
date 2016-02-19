@@ -1,11 +1,15 @@
 {
-  "name": "node-template",
+  "name": "lightstreamer-client-demo",
   "version": "0.0.1",
+  "author": "@simonedesordi",
+  "description": "a Lightstreamer client demo",
+  "engines": {
+    "node": "5.0.0"
+  },
   "scripts": {
     "test": "jest",
-    "dev-start": "babel-node app.js --logLevel=debug",
+    "dev-start": "babel-node app.js --logLevel=debug"
   },
-  "author": "@simonedesordi",
   "dependencies": {
     "babel": "6.*",
     "babel-cli": "*",
