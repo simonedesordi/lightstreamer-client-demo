@@ -1,0 +1,13 @@
+sudo: false
+language: node_js
+node_js:
+- '5'
+notifications:
+  email: simone.desordi@gmail.com
+deploy:
+  provider: heroku
+  api_key:
+    secure: sDllevgQD2n6Y/lghlWAZ7+r+iy0Q1/fhhNhWQ9UrhPV/ABWmPxMIYs3HK71yVjwxWa150J37MmStrMhYnwObZ3uHKnqZuazgjFdw60DWb/L63RxKByv5yYVNbg0Po5aor1IBjIgONEzAH5KYm9tsDKW5mirp6Y6n2ZHKXziIMUjuYrBlpq1Jk2daq2UWvu5XMizxT+ZrnH3qiXTyVg5ooI1SrR6h0n9YMfJTxCKaVlbUl5RnjJ9ElGH8+BW6lTNBYsM5WoQIzMt9FblJOSmlPqJO8hbAbWUuhehDzlGlM7Jnu3F1PD4Ljq4XaZhHxg9WueuM4gQEf+jY6QwPB1tEj1I7abfCnhKOQDGFh+GAR2zq3I9G3BpNsNIfRsADpqwEyYYuuzw9CnfDOWXqupGsX4X3lytUEBp/uXGU3mLAVpAv+yV3nMt2GxPkYD/Jdk2ekJ9Ub7gmrju/uXRe/s1n5hcOv9tqD0I6kxMwmOxsWrd8O3WA1oTaFWe930nAuvfDIcKK/rwMbrf7BPTqWbNChKpfG2IgajR2KAoYckQACAGyw+z4F3uuIzmeJ+d4ENwDUWcsqzhGEl76x1nOhbo4mRn+12nCBxx3lNKXU53klWp5M461fS7cmpnHkOPqDRqlMfpyBOxKHOtQwYDTFuO42Mtf8ApAe37g16WowoOnc4=
+  app: lightstreamer-client-demo
+  on:
+    repo: simonedesordi/lightstreamer-client-demo
