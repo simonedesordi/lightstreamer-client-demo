@@ -1,11 +1,15 @@
 <html>
 <head>
-    <!-- Do _not_  rely on this URL in production. Use only during development.  -->
+    <title>Lightstreamer client demo</title>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/require.js/1.0.7/require.min.js"></script>
+    <script src="lightstreamer.js"></script>
     <script src="//code.jquery.com/jquery-2.2.0.min.js"></script>
-    <script src="static/rx.all.js"></script>
-    <script src="static/client.js"></script>
+    <script src="client.js"></script>
 </head>
+
 <body>
-Hello !!!!!!!!
+<div data-source="lightstreamer" data-grid="hellogrid" data-item="greetings" data-field="message">loading...</div>
+<div data-source="lightstreamer" data-grid="hellogrid" data-item="greetings" data-field="timestamp">loading...</div>
+
 </body>
 </html>
