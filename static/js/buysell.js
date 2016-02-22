@@ -73,7 +73,7 @@ function submitForm(op) {
 }
 
 var client = null;
-require(["js/lsClient"],function(lsClient) {
+require(["lsClient"],function(lsClient) {
   //save references to the LightstreamerClient to be used to 
   //send messages
   client = lsClient;
